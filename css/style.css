@@ -1,38 +1,41 @@
-/*
-Theme Name: KenzieFlix
-Author: Kenzie Academy
-Author URI: kenzie.com.br;
-Version: 1.0
- 
---------------------------------------------
-SUGESTÃO DE ESTRUTURAÇÃO BASE 
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** BODY
-**** TOPO
-**** RODAPÉ
-**** PÁGINA INICIAL
-*/
-
 /* VARIÁVEIS */
-:root{
-  
-}
+:root{}
 
 /*BODY*/
-	body{
+body{}
 
-	}
-
-/*TOPO*/
-	header.topo{
-		
-	}
-
-/*RODAPÉ*/
-	
+/* CABEÇALHO */
+.topo {}
+.topo__figure {}
+.topo__image {}
+.topo__image-description {}
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
+div.pg-home{}
+.section {}
+.section__header {}
+.section__title {}
+
+/* LISTA DE USUÁRIOS */
+.user-list {}
+
+/* USUÁRIO */
+.user-list__user {}
+.user-list__figure {}
+.user-list__image {}
+.user-list__image-description {}
+.user-list__username {}
+
+/* ADICIONAR PERFIL */
+.addPerfil {}
+.addPerfil__figure {}
+.addPerfil__image {}
+.addPerfil__image-description {}
+.addPerfil__title {}
+
+/* FOOTER */
+.footer {}
+.footer__button {}
+	
+
+
