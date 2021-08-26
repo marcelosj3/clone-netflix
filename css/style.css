@@ -52,9 +52,12 @@ div.pg-home{
 }
 
 .section__header {
+    margin-bottom: 50px;
+}
+
+.section__title {
     font-size: 1.7em;
     font-weight: bold;
-    margin-bottom: 50px;
 }
 
 /* LISTA DE USUÁRIOS */
@@ -136,7 +139,7 @@ div.pg-home{
 }
 
 @media screen and (min-width: 565px) {
-    .section__header {
+    .section__title {
         font-size: 3em;
     }
 
@@ -171,7 +174,7 @@ div.pg-home{
         transform: translateX(0);
     }
     
-    .section__header {
+    .section__title {
         font-size: 5em;
     }
 }
