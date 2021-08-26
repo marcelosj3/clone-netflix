@@ -1,41 +1,102 @@
 /* VARIÁVEIS */
-:root{}
+:root{
+    --user-image-size: 186px;
+
+}
 
 /*BODY*/
-body{}
+body{
+    background-color: #00002e;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
 
 /* CABEÇALHO */
-.topo {}
-.topo__figure {}
-.topo__image {}
-.topo__image-description {}
+.topo {
+    /* position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.topo__figure {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.topo__image {
+    /* position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.topo__image-description {
+    display: none;
+}
 
 /*PÁGINA INICIAL*/
-div.pg-home{}
-.section {}
+div.pg-home{
+    margin-top: 100px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .section__header {}
 .section__title {}
 
 /* LISTA DE USUÁRIOS */
-.user-list {}
+.user-list {
+    max-width: 858px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* USUÁRIO */
-.user-list__user {}
-.user-list__figure {}
-.user-list__image {}
-.user-list__image-description {}
+.user-list__user {text-align: center;}
+.user-list__figure {
+    width: var(--user-image-size);
+}
+.user-list__image {
+    width: 100%;
+}
+.user-list__image-description {
+    display: none;
+}
 .user-list__username {}
 
 /* ADICIONAR PERFIL */
-.addPerfil {}
-.addPerfil__figure {}
-.addPerfil__image {}
-.addPerfil__image-description {}
+.addPerfil {text-align: center;}
+.addPerfil__figure {
+    width: var(--user-image-size);
+    height: var(--user-image-size);
+    text-align: center;
+    position: relative;
+}
+.addPerfil__image {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.addPerfil__image-description {
+    display: none
+}
 .addPerfil__title {}
 
 /* FOOTER */
 .footer {}
-.footer__button {}
+.footer__button {
+    color: #FFF;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FFF;
+    padding: 15px 30px;
+}
 	
 
 
