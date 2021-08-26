@@ -1,11 +1,10 @@
 /* VARIÁVEIS */
 :root{
+    --user-box-size: 858px;
     --user-image-size: 186px;
     --primary-color: #00002e;
     --accent-color: #FFF;
-    --unclicked-color: #c9c9c9;
-    --user-box-size: 858px;
-
+    --light-color: #a0a0a0;
 }
 
 /*BODY*/
@@ -58,8 +57,6 @@ div.pg-home{
     margin-bottom: 50px;
 }
 
-.section__title {}
-
 /* LISTA DE USUÁRIOS */
 .user-list {
     max-width: var(--user-box-size);
@@ -76,7 +73,15 @@ div.pg-home{
     width: var(--user-image-size);
     margin: 20px 20px 50px;
     cursor: pointer;
+    border: 1px solid transparent;
+    color: var(--light-color);
 }
+
+.user-list__user:hover {
+    border: 1px solid var(--light-color);
+    color: var(--accent-color);
+}
+
 .user-list__figure {
     width: var(--user-image-size);
 }
@@ -89,12 +94,9 @@ div.pg-home{
 .user-list__username {
     margin-top: 20px;
     font-weight: bold;
-    color: var(--unclicked-color);
 }
 
 /* ADICIONAR PERFIL */
-.user-list__user--add-profile {}
-
 .user-list__figure--add-profile {
     position: relative;
     width: 186px;
@@ -107,7 +109,6 @@ div.pg-home{
     width: 50%;
     transform: translate(-50%,-50%);
 }
-.user-list__image-description-add-profile {}
 
 .user-list__username--add-profile {
     flex: 1;
