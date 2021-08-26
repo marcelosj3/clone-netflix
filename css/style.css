@@ -69,24 +69,21 @@ div.pg-home{
 .user-list__username {}
 
 /* ADICIONAR PERFIL */
-.addPerfil {text-align: center;}
-.addPerfil__figure {
+.user-list__user--add-profile {}
+.user-list__figure--add-profile {
     width: var(--user-image-size);
-    height: var(--user-image-size);
     text-align: center;
     position: relative;
 }
-.addPerfil__image {
+.user-list__image--add-profile {
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.addPerfil__image-description {
-    display: none
-}
-.addPerfil__title {}
+.user-list__image-description-add-profile {}
+.user-list__username--add-profile {}
 
 /* FOOTER */
 .footer {}
