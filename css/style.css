@@ -112,3 +112,42 @@ div.pg-home{
     border: 1px solid #FFF;
     padding: 20px 50px;
 }
+
+@media screen and (min-width: 565px) {
+    .section__header {
+        font-size: 3em;
+    }
+    div.pg-home{
+        margin: 150px 0;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .user-list {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .user-list {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    div.pg-home {
+        margin: 150px 0 0;
+    }
+
+    .user-list {
+        flex-wrap: nowrap;
+    }
+
+    .topo__figure {
+        left: 0;
+        transform: translateX(0);
+    }
+    .section__header {
+        font-size: 5em;
+    }
+}
