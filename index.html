@@ -1,275 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="flex">
-                <div class="flex-column">
-                    <a href="#" class="logo">
-                        <figure>
-                            <img src="" alt="Logo netflix">
-                            <figcaption class="hidden">Logo netflix</figcaption>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__flex">
+                <div class="header__flex-column">
+                    <a href="#" class="header__logo">
+                        <figure class="header__figure">
+                            <img src="" alt="Logo netflix" class="header__image">
+                            <figcaption class="header__figcaption">Logo netflix</figcaption>
                         </figure>
                     </a>
                 </div>
-                <div class="flex-column">
-                    <nav>
-                        <span class="abrir-submenu mobile-element">Navegar</span>
-                        <ul>
-                            <li class="item-ativo"><a href="#">Início</a></li>
-                            <li><a href="#">Séries</a></li>
-                            <li><a href="#">Filmes</a></li>
-                            <li><a href="#">Bombando</a></li>
-                            <li><a href="#">Minha lista</a></li>
+                <div class="header__flex-column">
+                    <nav class="header__nav">
+                        <span class="header__mobile-menu">Navegar</span>
+                        <ul class="header__menu-list">
+                            <li class="menu__list-item menu__list-item--active"><a class="menu__link"
+                                    href=" #">Início</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href=" #">Séries</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href=" #">Filmes</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href=" #">Bombando</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href=" #">Minha lista</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="flex-column">
-                    <div class="menu-usuario">
-                        <span class="pesquisar"><img src="" alt="Ícone pesquisar"></span>
-                        <span class="usuario"><img src="" alt="Ícone usuário"></span>
+                    <div class="header__menu-user">
+                        <span class="menu-user__search"><img src="" alt="Ícone pesquisar"></span>
+                        <span class="menu-user__user-icon"><img src="" alt="Ícone usuário"></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
-    <main class="pagina-inicial">
-        <section class="secao-destaque">
-            <div class="container">
-                <article class="secao-destaque-conteudo">
-                    <figure>
-                        <img src="" alt="Título seção destaque">
-                        <figcaption class="hidden">Título seção destaque</figcaption>
+
+    <main class="homepage">
+        <section class="highlighted">
+            <div class="highlighted__container">
+                <article class="highlighted__content">
+                    <figure class="highlighted__figure">
+                        <img src="" alt="Título seção destaque" class="highlighted__image">
+                        <figcaption class="highlighted__figcaption">Título seção destaque</figcaption>
                     </figure>
-                    <p>Ela o amava e queria acreditar nele. Mas a verdade era monstruosa demais para ser ignorada.</p>
-                    <div class="secao-destaque-buttons">
-                        <button class="assistir">Assistir</button>
-                        <button class="mais-informacoes">Mais informações</button>
+                    <p class="highlighted__paragraph">Ela o amava e queria acreditar nele. Mas a verdade era monstruosa
+                        demais para ser ignorada.</p>
+                    <div class="highlighted__button-container">
+                        <button class="highlighted__button highlighted__button--watch">Assistir</button>
+                        <button class="highlighted__button highlighted__button--information">Mais informações</button>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="secao-catalogo" id="secao-continuar-assistindo">
-            <div class="container">
-                <h2 class="secao-catalogo-titulo">Continuar assistindo</h2>
-                <ul class="flex">
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+        <section class="catalog" id="keepWatching">
+            <div class="catalog__container">
+                <h2 class="catalog__title">Continuar assistindo</h2>
+                <ul class="catalog__flex">
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="secao-catalogo" id="secao-minha-lista">
-            <div class="container">
-                <h2 class="secao-catalogo-titulo">Minha lista</h2>
-                <ul class="flex">
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="secao-catalogo" id="secao-originais">
-            <div class="container">
-                <h2 class="secao-catalogo-titulo">Minha lista</h2>
-                <ul class="flex">
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+        <section class="catalog" id="myWatchlist">
+            <div class="catalog__container">
+                <h2 class="catalog__title">Minha lista</h2>
+                <ul class="catalog__flex">
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="secao-catalogo" id="secao-originais">
-            <div class="container">
-                <h2 class="secao-catalogo-titulo">Programas para toda a família</h2>
-                <ul class="flex">
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+        <section class="catalog" id="secao-originais">
+            <div class="catalog__container">
+                <h2 class="catalog__title">Minha lista</h2>
+                <ul class="catalog__flex">
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li class="flex-column">
-                        <a href="#">
-                            <figure>
-                                <img src="assets/img/movies/" alt="Nome programa">
-                                <figcaption class="hidden">Nome programa</figcaption>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="catalog" id="originals">
+            <div class="catalog__container">
+                <h2 class="catalog__title">Programas para toda a família</h2>
+                <ul class="catalog__flex">
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="catalog__flex-column">
+                        <a href="#" class="catalog__link">
+                            <figure class="catalog__figure">
+                                <img src="assets/img/movies/" alt="Nome programa" class="catalog__image">
+                                <figcaption class="catalog__figcaption">Nome programa</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -278,31 +285,44 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="flex">
-                <div class="flex-column">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Centro de ajuda</a></li>
-                            <li><a href="#">Termos de uso</a></li>
-                            <li><a href="#">Privacidade</a></li>
-                            <li><a href="#">Entre em contato</a></li>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__flex">
+                <div class="footer__flex-column">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="nav-list__list-item"><a href="#" class="nav-list__link">Centro de ajuda</a></li>
+                            <li class="nav-list__list-item"><a href="#" class="nav-list__link">Termos de uso</a></li>
+                            <li class="nav-list__list-item"><a href="#" class="nav-list__link">Privacidade</a></li>
+                            <li class="nav-list__list-item"><a href="#" class="nav-list__link">Entre em contato</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="flex-column">
-                    <ul class="redes-sociais">
-                        <li><a href="#"><img src="" alt="Facebook"></a></li>
-                        <li><a href="#"><img src="" alt="Instagram"></a></li>
-                        <li><a href="#"><img src="" alt="Twitter"></a></li>
+                <div class="footer__flex-column">
+                    <ul class="footer__socials">
+                        <li class="socials__list-item">
+                            <a href="#" class="socials__link">
+                                <img src="" alt="Facebook" class="socials__image">
+                            </a>
+                        </li>
+                        <li class="socials__list-item">
+                            <a href="#" class="socials__link">
+                                <img src="" alt="Instagram" class="socials__image">
+                            </a>
+                        </li>
+                        <li class="socials__list-item">
+                            <a href="#" class="socials__link">
+                                <img src="" alt="Twitter" class="socials__image">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 1997-2021 Netflix, Inc.</p>
+            <div class="footer__copyright">
+                <p class="copyright__paragraph">&copy; 1997-2021 Netflix, Inc.</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

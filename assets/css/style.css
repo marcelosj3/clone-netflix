@@ -1,103 +1,98 @@
+/* VARIABLES */
+:root {}
 
-/*
-Theme Name: Landing Page Kenzie Academy
-Theme URI: https://kenzie.com.br/
-Author: Kenzie Academy 
-Author URI: https://kenzie.com.br/
-Description: Descrção do thema.
-Version: 1.0
-Text Domain: https://kenzie.com.br/
+/* FROM THE OLD CSS */
 
---------------------------------------------
-ESTRUTURAÇÃO BASE
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** ESTILOS GERAIS
-**** BODY
-**** HEADER
-**** FOOTER
-**** PÁGINA INICIAL
-**** EXTRAS
-**** @MEDIA
-
-family=Montserrat -> Menus
-family=Lato -> Títulos, textos
-*/
-
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* FONTS */
-
-/* VARIÁVEIS */
-:root{}
-  
-/* GERAL */
-html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    list-style: none;
-}
-img{
+.header__image,
+.highlighted__image,
+.catalog__image,
+.socials__image,
+img {
     max-width: 800px;
 }
-div.flex{
+
+.header__flex,
+.catalog__flex,
+.footer__flex {
     display: flex;
 }
-div.full-container{
-    width: 100%;
-    max-width: 1850px;
-    margin:0 auto;
-}
-div.large-container{
-    width: 100%;
-    max-width: 1170px;
-    margin:0 auto;
-}
-div.container{
+
+.header__container,
+.highlighted__container,
+.catalog__container,
+.footer__container { 
     width: 100%;
     max-width: 1140px;
     margin:0 auto;
 }
-/* GERAL */
-  
-/* HTML */
-html{}
-/* HTML */
-  
-/* BODY */
-body{}
-/* BODY */
-  
+
+/* DOCUMENT */
+body {}
+
 /* HEADER */
-header{}
-/* HEADER */
-  
+.header {}
+.header__container {}
+.header__flex {}
+.header__flex-column {}
+.header__logo {}
+.header__figure {}
+.header__image {}
+.header__figcaption {}
+
+.header__flex-column {}
+.header__nav {}
+.header__mobile-menu {}
+.header__menu-list {}
+.menu__list-item {}
+.menu__list-item--active {}
+.menu__link {}
+
+.header__flex-column {}
+.header__menu-user {}
+.menu-user__search {}
+.menu-user__user-icon {}
+
+/* HOMEPAGE */
+.homepage {}
+
+.highlighted {}
+.highlighted__container {}
+.highlighted__content {}
+.highlighted__figure {}
+.highlighted__image {}
+.highlighted__figcaption {}
+.highlighted__paragraph {}
+.highlighted__button-container {}
+.highlighted__button {}
+.highlighted__button--watch {}
+.highlighted__button--information {}
+
+/* CATALOG */
+.catalog {}
+.catalog__container {}
+.catalog__title {}
+.catalog__flex {}
+.catalog__flex-column {}
+.catalog__link {}
+.catalog__figure {}
+.catalog__image {}
+.catalog__figcaption {}
+
 /* FOOTER */
-footer{}
-/* FOOTER */
+.footer {}
+.footer__container {}
+.footer__flex {}
+.footer__flex-column {}
+.footer__nav {}
+.footer__nav-list {}
+.nav-list__list-item {}
+.nav-list__link {}
 
-/* INICIAL */
-main{}
-/* INICIAL */
+.footer__flex-column {}
+.footer__socials {}
+.socials__list-item {}
+.socials__link {}
+.socials__image {}
 
-/* EXTRAS */
-
-/* para estilizar a scrollbar */
-::-webkit-scrollbar{}
-::-webkit-scrollbar-button{}
-::-webkit-scrollbar-track{}
-::-webkit-scrollbar-track-piece{}
-::-webkit-scrollbar-thumb{}
-::-webkit-scrollbar-corner{}
-::-webkit-resizer{}
-
-/* EXTRAS */
-  
-
-/* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
-/* MEDIA QUERIES */
+.footer__copyright {}
+.copyright__paragraph {}
