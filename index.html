@@ -1,10 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <!-- META -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- TÍTULO -->
+    <title>Kenzieflix</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="topo">
+      <figure class="topo__figure">
+        <img class="topo__image" src="img/logo.png" alt="Kenzieflix" />
+        <figcaption class="topo__image-description">Kenzieflix</figcaption>
+      </figure>
+    </header>
+
+    <!-- PÁGINA INICIAL -->
+    <div class="pg-home">
+      <section class="section">
+        <header class="section__header">
+          <h2 class="section__title">Quem está assistindo?</h2>
+        </header>
+
+        <!-- LISTA DE USUÁRIOS -->
+        <ul class="user-list">
+          <!-- USUÁRIO 1 -->
+          <li class="user-list__user">
+            <figure class="user-list__figure">
+              <img
+                class="user-list__image"
+                src="img/avatar.png"
+                alt="Gabriel"
+              />
+              <figcaption class="user-list__image-description">
+                Gabriel
+              </figcaption>
+            </figure>
+
+            <h3 class="user-list__username">Gabriel</h3>
+          </li>
+
+          <!-- USUÁRIO 2 -->
+          <li class="user-list__user">
+            <figure class="user-list__figure">
+              <img class="user-list__image" src="img/avatar1.png" alt="Maria" />
+              <figcaption class="user-list__image-description">
+                Maria
+              </figcaption>
+            </figure>
+
+            <h3 class="user-list__username">Maria</h3>
+          </li>
+
+          <!-- USUÁRIO 3 -->
+          <li class="user-list__user">
+            <figure class="user-list__figure">
+              <img
+                class="user-list__image"
+                src="img/avatar2.png"
+                alt="Renato"
+              />
+              <figcaption class="user-list__image-description">
+                Renato
+              </figcaption>
+            </figure>
+
+            <h3 class="user-list__username">Renato</h3>
+          </li>
+
+          <!-- ADICIONAR PERFIL-->
+          <li class="user-list__user">
+            <figure class="user-list__figure user-list__figure--add-profile">
+              <img
+                class="user-list__image user-list__image--add-profile"
+                src="img/plus-sign.png"
+                alt="Adicionar perfil"
+              />
+              <figcaption class="user-list__image-description">
+                Adicionar perfil
+              </figcaption>
+            </figure>
+
+            <h3 class="user-list__username user-list__username--add-profile">
+              Adicionar perfil
+            </h3>
+          </li>
+        </ul>
+
+        <footer class="footer">
+          <button class="footer__button">Gerenciar Perfis</button>
+        </footer>
+      </section>
+    </div>
+  </body>
 </html>
